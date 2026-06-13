@@ -1,5 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;600;800&display=swap");
+
+@mixin laptop {
+  @media (max-width: 1599px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: 1200px) {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 20px 0;
   align-items: center;
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    font-weight: 400;
+    color: #424241;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+}
+
+.hero {
+  p {
+    font-weight: 400;
+    color: #909090;
+    margin-top: 5px;
+    max-width: 80%;
+    margin-bottom: 40px;
+
+    @media (min-width: 1200px) {
+      max-width: 40%;
+    }
+  }
+
+  a {
+    background-color: #7edad2;
+    padding: 16.5px 34px;
+    width: 180px;
+    height: 60px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .hero_numbers {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 56px;
+    margin-bottom: 64px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #909090;
+    }
+    span {
+      font-family: "Bebas Neue", sans-serif;
+      font-style: normal;
+      font-size: 48px;
+      font-weight: 400;
+      color: #424241;
+    }
+  }
+}
+
+.hero h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 80px;
+  max-width: 50%;
+
+  @media (min-width: 1200px) {
+    font-size: 120px;
+    max-width: 60%;
+  }
+
+  span {
+    color: #7edad2;
+  }
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+
+  div {
+    background-color: #ffffff;
+    padding: 32px;
+    font-weight: 500;
+    color: #424241;
+    p {
+      color: #909090;
+    }
+  }
+}
+
+.img-background {
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  z-index: -1;
+
+  @include desktop {
+    width: 1100px;
+    height: 1200px;
+  }
+
+  @include laptop {
+    width: 800px;
+    height: 1000px;
+  }
 }

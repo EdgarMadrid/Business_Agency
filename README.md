@@ -1,11 +1,15 @@
+<p align="right">
+  🇺🇸 English | <a href="./README.es.md">🇪🇸 Español</a>
+</p>
+
 <h1 align="center">🏢 Business_Agency</h1>
 
 <p align="center">
-  Proyecto Frontend desarrollado como práctica de maquetación siguiendo los cursos de Conquer Blocks.
+Project developed as a frontend layout practice following Conquer Blocks courses.
 </p>
 
 <p align="center">
-  Construido con HTML, CSS y SCSS
+Built with HTML, CSS and SCSS
 </p>
 
 ---
@@ -20,42 +24,42 @@
 
 ---
 
-## ✨ Sobre el proyecto
+## ✨ About the Project
 
-**Business_Agency** es una cabecera web (*Header Component*) desarrollada para poner en práctica conceptos fundamentales de desarrollo frontend.
+**Business_Agency** is a **Header Component** developed as a frontend practice project.
 
-Este proyecto fue construido aplicando conocimientos adquiridos durante la formación de **Conquer Blocks**, utilizando una metodología orientada a escribir código más limpio, organizado y reutilizable mediante **SCSS**.
+This project was built by applying concepts learned during the **Conquer Blocks** training program, following a cleaner, more organized and reusable development approach through **SCSS**.
 
-Durante el desarrollo se trabajó en:
+During development, the following concepts were applied:
 
-✅ Estructura semántica con HTML  
-✅ Diseño y maquetación con CSS  
-✅ Organización de estilos usando SCSS  
-✅ Componentización visual  
-✅ Buenas prácticas de desarrollo frontend  
-
----
-
-## 🎯 Objetivo
-
-Crear una cabecera moderna para una página tipo **Business Agency**, simulando una interfaz profesional enfocada en:
-
-- Navegación clara
-- Diseño visual atractivo
-- Organización del código
-- Escalabilidad mediante SCSS
+✅ Semantic HTML structure  
+✅ Layout and styling with CSS  
+✅ Organized styles using SCSS  
+✅ Visual component composition  
+✅ Frontend development best practices  
 
 ---
 
-## 🚀 Tecnologías
+## 🎯 Goal
+
+Create a modern website header for a **Business Agency** landing page, focusing on:
+
+- Clear navigation
+- Attractive UI design
+- Organized code structure
+- Scalability through SCSS
+
+---
+
+## 🚀 Technologies
 
 <div align="center">
 
-| Tecnología | Uso |
+| Technology | Purpose |
 |-----------|------|
-| 🌐 HTML5 | Estructura |
-| 🎨 CSS3 | Estilos |
-| ⚡ SCSS | Arquitectura y mantenimiento |
+| 🌐 HTML5 | Structure |
+| 🎨 CSS3 | Styling |
+| ⚡ SCSS | Architecture & maintainability |
 
 </div>
 
@@ -64,29 +68,28 @@ Crear una cabecera moderna para una página tipo **Business Agency**, simulando 
 ## 📷 Preview
 
 <p align="center">
-  <img src="./assets/preview.png" width="100%">
+<img src="./assets/preview.png" width="100%">
 </p>
-
 
 ---
 
-## 🛠️ Ejecución local
+## 🛠️ Run Locally
 
-Clona el repositorio:
+Clone repository:
 
 ```bash
 git clone https://github.com/EdgarMadrid/Business_Agency.git
 ```
 
-Accede al proyecto:
+Enter project:
 
 ```bash
 cd Business_Agency
 ```
 
-Abre `index.html` en el navegador.
+Open `index.html` in your browser.
 
-### Compilar SCSS
+### Compile SCSS
 
 ```bash
 sass --watch scss:css
@@ -94,13 +97,13 @@ sass --watch scss:css
 
 ---
 
-## 📚 Inspiración
+## 📚 Inspiration
 
-Proyecto realizado como práctica académica siguiendo la formación de **Conquer Blocks** y enfocado en reforzar habilidades de desarrollo frontend.
+Project created as an educational practice following **Conquer Blocks** training and focused on improving frontend development skills.
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 <p align="center">
 
@@ -117,5 +120,5 @@ Proyecto realizado como práctica académica siguiendo la formación de **Conque
 ---
 
 <p align="center">
-⭐ Si te gustó este proyecto puedes darle una estrella en GitHub
+⭐ If you enjoyed this project, consider giving it a star on GitHub
 </p>
